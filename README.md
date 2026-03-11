@@ -1,42 +1,63 @@
-# 🗃️ CRUD SQL (Versión 1)
+# 🏗️ Gestión de Proyectos de Arquitectura
 
-Proyecto Java para implementar operaciones CRUD con bases de datos SQL desarrollado por **Isaac Esteban Haro Torres**.
+Proyecto desarrollado por **Isaac Esteban Haro Torres**.
 
 ---
 
 ## 📝 Descripción
 
-Aplicación Java que realiza operaciones Create, Read, Update y Delete (CRUD) en bases de datos SQL.
+Plataforma completa para la gestión de proyectos arquitectónicos, permitiendo el control de clientes, proyectos, planos, presupuestos, materiales y avance de obras.
 
 ---
 
 ## ✨ Características
 
-- Conexión a bases de datos SQL
-- Operaciones CRUD completas
-- Manejo de excepciones
+- Registro y gestión de clientes
+- Control de proyectos arquitectónicos
+- Subida y gestión de planos
+- Elaboración de presupuestos
+- Control de materiales
+- Seguimiento de etapas de obra (diseño, aprobación, construcción, finalización)
+- Dashboard con métricas de proyectos activos, presupuesto total y avance de obras
 
 ---
 
 ## 🛠️ Stack Tecnológico
 
-- Java SE
-- JDBC
-- MySQL/Oracle
+* PHP
+* Laravel 11
+* Livewire 3
+* Bootstrap 5
+* Docker
+* MySQL
+
+---
+
+## 🚀 Instalación
+
+1. Clonar el repositorio
+2. Ejecutar `docker compose up -d`
+3. Instalar dependencias: `composer install`
+4. Ejecutar migraciones: `php artisan migrate`
+5. Ejecutar seeders: `php artisan db:seed`
+6. Acceder al sistema en `http://localhost`
 
 ---
 
 ## 👨‍💻 Desarrollado por Isaac Esteban Haro Torres
 
-**Ingeniero en Sistemas · Full Stack · Automatización · Data**
+Ingeniero en Sistemas · Full Stack · Automatización · Data
 
-- 📧 Email: zackharo1@gmail.com
-- 📱 WhatsApp: 098805517
-- 💻 GitHub: https://github.com/ieharo1
-- 🌐 Portafolio: https://ieharo1.github.io/portafolio-isaac.haro/
+**Email:** zackharo1@gmail.com
+
+**WhatsApp:** 098805517
+
+**GitHub:** https://github.com/ieharo1
+
+**Portafolio:** https://ieharo1.github.io/portafolio-isaac.haro/
 
 ---
 
 ## 📄 Licencia
 
-© 2026 Isaac Esteban Haro Torres - Todos los derechos reservados.
+© 2026 Isaac Esteban Haro Torres
